@@ -1,0 +1,15 @@
+.form {
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    right: 20px;
+    top: 5%;
+    color: hsl(0, 0%, 92%);
+}
+
+.close {
+    position: absolute;
+    right: -5px;
+    top: -25px;
+    padding: 3px 8px;
+}

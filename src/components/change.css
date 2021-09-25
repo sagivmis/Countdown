@@ -1,0 +1,7 @@
+.change-button {
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    right: 20px;
+    top: 2%;
+}

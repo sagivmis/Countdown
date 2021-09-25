@@ -1,0 +1,77 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;700&display=swap");
+/* ANIMATIONS */
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* GLOBAL */
+
+body {
+    background-color: hsl(234, 17%, 12%);
+    font-family: "Red Hat Text", sans-serif;
+}
+
+span {
+    /* color: hsl(53, 53%, 69%); */
+    font-size: 32px;
+}
+input {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+}
+.App {
+    /* position: relative;
+    height: 100%;
+    width: 100%; */
+}
+.bg {
+    width: 100%;
+    z-index: 0;
+}
+
+.hills {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    min-height: 20%;
+}
+
+.stars {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    min-height: 65%;
+}
+
+.website-container {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.link {
+    color: #61dafb;
+}
+
+.hidden {
+    display: none;
+}

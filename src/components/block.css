@@ -1,0 +1,35 @@
+.block {
+    position: relative;
+    background-color: hsl(235, 16%, 14%);
+    height: 50px;
+    width: 78px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 100;
+    padding: 5px;
+    /* color: hsl(0, 0%, 30%); */
+    color: hsl(235, 57%, 83%);
+    /* color: hsl(24, 100%, 88%); */
+    text-align: center;
+    font-weight: 700;
+}
+
+.block:hover {
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(236, 100%, 94%);
+    transform: scale(1.05);
+}
+
+.block-container {
+    position: relative;
+    /* width: 100%; */
+    text-align: center;
+    font-weight: 500;
+}
+.block-key {
+    position: relative;
+    display: inline;
+    /* right: 10px; */
+}
