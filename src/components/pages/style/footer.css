@@ -1,0 +1,28 @@
+.footer {
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 80%;
+    left: 7.5%;
+    top: 80px;
+    padding: 5px;
+}
+#instagram {
+    position: relative;
+    margin-left: 25%;
+}
+#facebook {
+    position: relative;
+    margin-left: 15px;
+}
+#discord {
+    height: 28px;
+    width: 32px;
+    margin-left: 15px;
+    /* background-color: #8386a9; */
+}
+
+.filter-purple {
+    filter: invert(9%) sepia(18%) saturate(829%) hue-rotate(201deg)
+        brightness(92%) contrast(94%);
+}

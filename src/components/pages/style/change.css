@@ -1,0 +1,12 @@
+.change-button {
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    right: 20px;
+    top: 7%;
+    padding: 15px 5px;
+}
+
+.change {
+    padding: 7.7px 15.4px;
+}

@@ -1,0 +1,29 @@
+.form {
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    right: 20px;
+    top: 10%;
+    color: hsl(0, 0%, 92%);
+    padding: 15px 30px;
+}
+
+.close {
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    padding: 4px 8px;
+}
+
+.text-input {
+    display: block;
+}
+
+.generate-button {
+    position: relative;
+    right: 10px;
+}
+
+.form-container {
+    position: relative;
+}
