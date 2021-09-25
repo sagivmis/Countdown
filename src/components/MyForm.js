@@ -41,27 +41,20 @@ const MyForm = ({ ...props }) => {
                 color={"hsl(236, 21%, 26%)"}
                 classN={"btn close"}
             />
-            <label>Year:</label>
-            <br />
-            <input type='text' id='year' />
-            <br />
-            <label>Month:</label>
-            <br />
-            <input type='text' id='month' />
-            <br />
-            <label>Day:</label>
-            <br />
-            <input type='text' id='day' />
-            <br />
-            <label>Hour:</label>
-            <br />
-            <input type='text' id='hour' />
-            <br />
+            <label className='form-label'>Year:</label>
+            <input type='text' class='text-input' id='year' />
+            <label className='form-label'>Month:</label>
+            <input type='text' class='text-input' id='month' />
+            <label className='form-label'>Day:</label>
+            <input type='text' class='text-input' id='day' />
+            <label className='form-label'>Hour:</label>
+            <input type='text' class='text-input' id='hour' />
             <br />
             <Button
                 text='Generate'
                 onClick={GrabData}
                 color={"hsl(236, 21%, 26%)"}
+                classN={"btn generate-button"}
             />
         </div>
     );

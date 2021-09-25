@@ -3,7 +3,7 @@
     position: absolute;
     text-align: center;
     right: 20px;
-    top: 5%;
+    top: 10%;
     color: hsl(0, 0%, 92%);
 }
 
@@ -12,4 +12,13 @@
     right: -5px;
     top: -25px;
     padding: 3px 8px;
+}
+
+.text-input {
+    display: block;
+}
+
+.generate-button {
+    position: relative;
+    right: 12.5px;
 }
